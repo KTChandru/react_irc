@@ -1,0 +1,53 @@
+/* NavigationBar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #3498db; /* Set your desired background color */
+  color: #fff;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.logo img {
+  width: 50px; /* Set your desired width */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.username {
+  font-weight: bold;
+}
+/* NavigationBar.css */
+
+.text-center {
+  display: flex;
+  align-items: center;
+}
+
+/* Add this class to the text element */
